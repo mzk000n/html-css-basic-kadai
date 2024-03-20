@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 20px 0;
+
+}
+
+nav {
+  font-size: 14px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  padding-left:20px;
+}
+a:link {
+  color: gray;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: red;
+
+}
+main {
+  height: 1000px;
+  background-color: gray;
+}

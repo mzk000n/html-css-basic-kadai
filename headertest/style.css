@@ -96,6 +96,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 4.2rem auto 0;
+  max-width: 1200px;
 }
 #backred {
   width: 60%;
@@ -138,7 +139,7 @@ footer {
   background-color: #0d0d0d;
   padding: 80px 0 48px;
 }
-footer > .inner {
+footer > .footerinner {
   max-width: 1272px;
   padding: 0 36px;
   width: 100%;
@@ -149,8 +150,12 @@ footer > .inner {
   margin-bottom: 44px;
   text-align: center;
 }
+#footerlogoimg {
+  max-width: 201.5px;
+}
 footer nav {
   text-align: center;
+  font-size: 0;
 }
 footer nav a {
   color: #fff;
@@ -159,7 +164,7 @@ footer nav a {
   font-size: 14px;
   padding-bottom: 3px;
   line-height: 18px;
-  letter-spacing: .04rem;
+  letter-spacing: .04em;
   text-decoration: none;
   position: relative;
 }
@@ -177,9 +182,24 @@ footer nav a::after {
   transform: scaleX(0);
   transition: all .2s;
 }
+footer nav a:hover::after {
+  transform: scaleX(1);
+}
 .info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 70px;
+}
+.sns {
+  display: flex;
+  align-items: center;
+}
+.sns1 {
+  margin-left: 24px;
+}
+.en {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
 }

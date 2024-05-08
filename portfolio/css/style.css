@@ -1,0 +1,105 @@
+body {
+  font-family: "Montserrat", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 15px;
+  letter-spacing: .05em;
+  color: #333;
+}
+.wrapper {
+  padding-top: 73px; 
+}
+
+/* ヘッダー　*/
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+}
+#headercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-right: 20px;
+  letter-spacing: .05em;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-item:not(:last-child) {
+  margin-right: 20px;
+} 
+
+#topmenu a {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 0;
+  transition: .3s;
+  letter-spacing: .05em;
+}
+#topmenu a::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  height: 3px;
+  content: "";
+  transition: .3s;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #333;
+}
+
+/* メインビジュアル　*/
+#mainvisual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  text-align: center;
+}
+#mvcontainer {
+  padding: 0 20px;
+}
+#main {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+  border-style: none;
+}
+/* WORKS セクション　*/
+#workssection {
+  background-color: #f7f7f7;
+  padding: 90px 0;
+}
+
+.h2 {
+  text-align: center;
+  
+}
+.workslist {
+  display: flex;
+  flex-wrap: wrap;
+}
+

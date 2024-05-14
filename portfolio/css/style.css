@@ -69,6 +69,9 @@ ul {
   transform: translateX(-50%);
   background-color: #333;
 }
+#topmenu a:hover:after {
+  width: 100%;
+}
 
 /* メインビジュアル　*/
 #mainvisual {
@@ -232,6 +235,65 @@ footer {
   color: #797979;
 }
 
+/* WORKS 詳細ページ */
+.article {
+  padding: 80px 0;
+}
+.article-container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.article-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.article-body {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.article-body img {
+  margin-bottom: 30px;
+}
+/* original */
+#articletext {
+  margin-bottom: 30px;
+}
+.detail-item {
+  margin-bottom: 30px;
+  margin-top:50px;
+}
+.article-body h3 {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-left: 1em;
+}
+.article-body h3::before {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    content: "";
+    border-radius: 3px;
+    background-color: #333;
+}
+.detail-text {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+.detail-item a {
+  color: #1ca9e3;
+}
+#backtoworks {
+  text-align: center;
+}
+#backtoworks a {
+  color: #1ca9e3;
+}
 
 /* スマホ　*/
 @media screen and (max-width: 767px) {
